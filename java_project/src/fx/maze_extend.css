@@ -1,0 +1,194 @@
+.label {
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #333333;
+	-fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+}
+
+.button {
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 80px;
+	-fx-pref-height: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+	-fx-cursor: pointer;
+}
+
+.background {
+	-fx-fill: linear-gradient(from 10% 10% to 90% 10%, #c0c0c0 10%, #a7d8d6 90%);
+	-fx-background-color: radial-gradient(radius 100%, #c0c0c0, #a7d8d6);
+	-fx-background-size: 100%, 100%;
+}
+
+.text3_4 {
+	-fx-font-size: 18px;
+}
+
+#p_text {
+	-fx-font-size: 32px;
+	-fx-fill: #818181;
+	-fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+.wall {
+	-fx-fill: linear-gradient(from 0% 0% to 100% 0%, #c0c0c0 0%, #ff0000 100%);
+	-fx-background-color: radial-gradient(radius 100%, #c0c0c0, #ff0000);
+}
+
+.chose {
+	-fx-border-color: red;
+	-fx-border-radius: 20px;
+}
+
+.wall:hover {
+	-fx-opacity: 0.5;
+}
+
+.road {
+	-fx-pref-width: 200px;
+	-fx-pref-height: 25px;
+	-fx-border-radius: 25px;
+}
+
+.point {
+	-fx-pref-width: 100px;
+	-fx-pref-height: 25px;
+	-fx-border-color: #b446b9;
+	-fx-border-radius: 25px;
+	-fx-background-color: #c0c0c0;
+	-fx-background-radius: 25px;
+}
+
+.point2 {
+	-fx-pref-width: 100px;
+	-fx-pref-height: 25px;
+	-fx-border-color: red;
+	-fx-border-radius: 25px;
+	-fx-background-color: #c0c0c0;
+	-fx-background-radius: 25px;
+}
+
+.my_button {
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 120px;
+	-fx-pref-height: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.my_button2 {
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	-fx-background-color: linear-gradient(#38B0DE, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 120px;
+	-fx-pref-height: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.my_button3 {
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	-fx-background-color: linear-gradient(#99cc32, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 120px;
+	-fx-pref-height: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.my_button4 {
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	-fx-background-color: linear-gradient(#cfb53b, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 120px;
+	-fx-pref-height: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.my_button5 {
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	-fx-background-color: linear-gradient(#db70db, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 120px;
+	-fx-pref-height: 20px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.my_button:hover {
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.my_button2:hover {
+	-fx-background-color: linear-gradient(#2A5058, #38B0DE);
+}
+
+.my_button3:hover {
+	-fx-background-color: linear-gradient(#2A5058, #99cc32);
+}
+
+.my_button4:hover {
+	-fx-background-color: linear-gradient(#2A5058, #cfb53b);
+}
+
+.my_button5:hover {
+	-fx-background-color: linear-gradient(#2A5058, #db70db);
+}
+
+.rbt1 {
+	-fx-background-color: linear-gradient(#99cc32, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.rbt1:hover {
+	-fx-background-color: linear-gradient(#2A5058, #99cc32);
+}
+
+.rbt2 {
+	-fx-background-color: linear-gradient(#38B0DE, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.rbt2:hover {
+	-fx-background-color: linear-gradient(#2A5058, #38B0DE);
+}
+
+.rbt3 {
+	-fx-background-color: linear-gradient(#ff0000, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.rbt3:hover {
+	-fx-background-color: linear-gradient(#2A5058, #ff0000);
+	-fx-cursor: pointer
+}

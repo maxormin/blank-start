@@ -1,0 +1,40 @@
+.root {
+	-fx-fill: linear-gradient(from 10% 10% to 90% 10%, #c0c0c0 10%, #a7d8d6 90%);
+	-fx-background-color: radial-gradient(radius 100%, #c0c0c0, #a7d8d6);
+	-fx-background-size: 100%, 100%;
+}
+
+.button {
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-pref-width: 200px;
+	-fx-pref-height: 40px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+	-fx-cursor: pointer;
+}
+
+.text1 {
+	-fx-font-family: KaiTi;
+	-fx-font-size: 70px;
+}
+
+.bar {
+	-fx-border-radius: 15px;
+	-fx-background-radius: 15px;
+	-fx-pref-width: 240px;
+	-fx-pref-height: 15px;
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+
+.bt1 {
+	-fx-pref-width: 120px;
+	-fx-pref-height: 20px;
+}
